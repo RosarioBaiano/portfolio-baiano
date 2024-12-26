@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    font-size: 125%;
+    font-family: 'DM sans', sans-serif;
+
+    --font-size-1: 2.25rem;
+    --font-size-2: 1.75rem;
+    --font-size-3: 1.25rem;
+    --font-size-4: 1rem;
+    --font-size-5: 0.75rem;
+
+    --color-green-1: #a2f7b5;
+    --color-green-2: #98fd8f;
+    --color-green-3: #67fd7b;
+
+    --color-pink-1: #f42771;
+
+    --color-black-1: #181818;
+
+}
