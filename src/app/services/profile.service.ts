@@ -14,7 +14,7 @@ export class ProfileService {
       email: 'aleixobaiano@icloud.com',
       name: 'Rosário Baiano Muanda',
       whatsApp: 'https://wa.link/me4jj5',
-      linkedIn: ''
+      linkedIn: 'https://www.linkedin.com/in/baiano-muanda-a80137344/?trk=opento_sprofile_details'
     }
 
     return profile;

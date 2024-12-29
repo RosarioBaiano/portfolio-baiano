@@ -207,6 +207,7 @@
     font-size: var(--font-size-5);
     font-weight: 400;
     align-items: center;
+    text-decoration: none;
 }
 
 .projects .box .project .text .buttons a.live {
@@ -218,6 +219,64 @@
     width: 20px;
     margin-right: 8px;
     font-size: 20px;
+}
+
+/* box contacts */ 
+.contact {
+    background: var(--color-black-1);
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact .box p {
+    color: #fff;
+}
+
+.contact .box {
+    max-width: 880px;
+}
+
+.contact .box h2,
+.contact .box h3 {
+    color:#fff
+}
+
+.contact .box .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
+.contact .box .contacts a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: var(--color-pink-1);
+    height: 50px;
+    color: #fff;
+    border-radius: 35px;
+    min-width: 200px;
+    text-align: 700;
+    margin: 15px 0;
+    text-decoration: none;
+}
+
+.contact .box .contacts a:hover {
+    background: #f42771bf;
+}
+
+.contact .box .contacts a span {
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+.contact .box .contacts a svg {
+    width: 30px;
+    margin-right: 5px;
 }
 
 @media (min-width: 768px) {
@@ -244,6 +303,10 @@
 
     .projects .box .project,
     .projects .box .project.reverse {
+        flex-direction: row;
+    }
+
+    .contact .box .contacts {
         flex-direction: row;
     }
 }
